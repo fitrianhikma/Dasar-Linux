@@ -9,7 +9,7 @@ $ cp /home/test.php /var/www/html | akan memindahkan file test.php ke folder htm
 
 $ cp /home/test.php /var/www/html | digunakan untuk memindahkan file test.php ke folder html.
 
-rm <file> untuk menghapus file
+$ rm <file> | untuk menghapus file
   
 $ find -name niagahoster.txt
 
