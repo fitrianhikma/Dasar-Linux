@@ -1,10 +1,16 @@
 # Dasar-Linux
 $ man apt | akan menampilkan manual penggunaan dari program apt.
+
 $ ls /var/lib | digunakan untuk melihat apa saja yang ada pada folder lib.
+
 $ cd /home/ | untuk menjadikan folder home sebagai direktori pada saat itu.
+
 mkdir namafolder
+
 $ cp /home/test.php /var/www/html | akan memindahkan file test.php ke folder html. Sedangkan jika menyalin folder harus menggunakan opsi “-r”.
+
 $ cp /home/test.php /var/www/html | digunakan untuk memindahkan file test.php ke folder html.
+
 rm <file> untuk menghapus file
 $ find -name niagahoster.txt
 $ history | grep apt
