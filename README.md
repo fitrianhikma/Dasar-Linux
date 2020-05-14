@@ -70,6 +70,3 @@ Berguna untuk melakukan instalasi paket dengan ekstensi “.deb”. Terkadang bi
 
 uname melihat versi kernel
 Menampilkan versi kernel yang dipakai, tanggal instalasi, dan jenis arsitektur sistem operasi.
-
-* untuk mencantumkan deskripsi
-Ini adalah sebuah tanda yang digunakan untuk mendeskripsikan satu string yang digunakan untuk memberikan deskripsi singkat dari satu elemen.
