@@ -5,8 +5,6 @@ $ ls /var/lib | digunakan untuk melihat apa saja yang ada pada folder lib.
 
 $ cd /home/ | untuk menjadikan folder home sebagai direktori pada saat itu.
 
-mkdir namafolder
-
 $ cp /home/test.php /var/www/html | akan memindahkan file test.php ke folder html. Sedangkan jika menyalin folder harus menggunakan opsi “-r”.
 
 $ cp /home/test.php /var/www/html | digunakan untuk memindahkan file test.php ke folder html.
@@ -32,23 +30,35 @@ $ su <nama user> | atau menjadikan user pada saat itu menjadi super user.
 $ sudo passwd | mengganti password user pada saat itu, sedangkan
 $ sudo passwd niagahoster | digunakan untuk mengganti password user “niagahoster”.
 
-who untuk menampilkan user
-
-ps untuk menampilkan snapshot
-
-kill untuk menghentikan program
-
 $ sudo kill -9 373 |, 373 adalah PID dari proses yang sedang berjalan.
-
-$ ssh <namauser>@<ip>
-  
-$ scp <file> <user>@<ip>:<folder tujuan> | Menyalin file dari host lain yang terhubung dalam satu jaringan
   
 $ sudo fdisk -l | Menampilkan list partisi pada perangkat, biasanya menggunakan opsi “-l”
 
 $ sudo mount /dev/sda2 /mnt |. Perintah ini akan membuat isi partisi /dev/sda2 bisa diakses melalui /mnt.
 
 $ umount /mnt | digunakan untuk memutuskan perintah mount pada folder /mnt
+
+# Penting
+$ ls -lh | lihat list file
+
+$ netstat -plnt | lihat koneksi, port
+
+# SSH
+$ ssh <namauser>@<ip>
+$ ssh -p 2222 fitria@103.110.43.68 | ssh port 2222 namauser@ip
+
+# SCP
+$ scp <file> <user>@<ip>:<folder tujuan> | Menyalin file dari host lain yang terhubung dalam satu jaringan
+$ scp -P 2223 coba@localhost:/home/coba/vicon.baru.key | salin ke port 2223 user@lokasi
+
+# Notes
+who untuk menampilkan user
+
+ps untuk menampilkan snapshot
+
+mkdir namafolder
+
+kill untuk menghentikan program
 
 ifconfig untuk melihat ip
 Melihat IP yang sedang terkoneksi dan network device apa saja yang tersedia.
