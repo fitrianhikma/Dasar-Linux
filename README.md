@@ -12,25 +12,44 @@ $ cp /home/test.php /var/www/html | akan memindahkan file test.php ke folder htm
 $ cp /home/test.php /var/www/html | digunakan untuk memindahkan file test.php ke folder html.
 
 rm <file> untuk menghapus file
+  
 $ find -name niagahoster.txt
+
 $ history | grep apt
+
 $ cat niagahoster1.txt niagahoster2.txt
+
 $ echo “Teks” >> niagahoster.txt |. Perintah tersebut akan menuliskan “Teks” ke dalam file “niagahoster.txt”, jika file tersebut belum ada maka otomatis akan dibuat.
+
 $ grep -i source niagahoster.txt | maka akan memunculkan baris yang mengandung kata “source” pada “niagahoster.txt”.
+
 $ chmod 644 niagahoster.txt | untuk mengganti hak akses
+
 $ chown niaga:niaga niagahoster.txt |. Kata “niaga” di depan merujuk pada user sedangkan “niaga” di belakang merujuk pada nama group.
+
 $ su <nama user> | atau menjadikan user pada saat itu menjadi super user.
+  
 $ sudo passwd | mengganti password user pada saat itu, sedangkan
 $ sudo passwd niagahoster | digunakan untuk mengganti password user “niagahoster”.
+
 who untuk menampilkan user
+
 ps untuk menampilkan snapshot
+
 kill untuk menghentikan program
+
 $ sudo kill -9 373 |, 373 adalah PID dari proses yang sedang berjalan.
+
 $ ssh <namauser>@<ip>
+  
 $ scp <file> <user>@<ip>:<folder tujuan> | Menyalin file dari host lain yang terhubung dalam satu jaringan
+  
 $ sudo fdisk -l | Menampilkan list partisi pada perangkat, biasanya menggunakan opsi “-l”
+
 $ sudo mount /dev/sda2 /mnt |. Perintah ini akan membuat isi partisi /dev/sda2 bisa diakses melalui /mnt.
+
 $ umount /mnt | digunakan untuk memutuskan perintah mount pada folder /mnt
+
 ifconfig untuk melihat ip
 Melihat IP yang sedang terkoneksi dan network device apa saja yang tersedia.
 
