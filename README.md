@@ -15,7 +15,7 @@ $ find -name niagahoster.txt
 
 $ history | grep apt
 
-$ cat niagahoster1.txt niagahoster2.txt
+$ cat niagahoster1.txt niagahoster2.txt | lihat isi file
 
 $ echo “Teks” >> niagahoster.txt |. Perintah tersebut akan menuliskan “Teks” ke dalam file “niagahoster.txt”, jika file tersebut belum ada maka otomatis akan dibuat.
 
@@ -30,7 +30,7 @@ $ su <nama user> | atau menjadikan user pada saat itu menjadi super user.
 $ sudo passwd | mengganti password user pada saat itu, sedangkan
 $ sudo passwd niagahoster | digunakan untuk mengganti password user “niagahoster”.
 
-$ sudo kill -9 373 |, 373 adalah PID dari proses yang sedang berjalan.
+$ sudo kill -9 373 | 373 adalah PID dari proses yang sedang berjalan.
   
 $ sudo fdisk -l | Menampilkan list partisi pada perangkat, biasanya menggunakan opsi “-l”
 
